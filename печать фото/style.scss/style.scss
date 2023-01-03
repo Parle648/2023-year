@@ -1,0 +1,173 @@
+@import "vars";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter';
+}
+.wrapper{
+    width: 1300px;
+    margin: 0px auto;
+}
+.main-ttl-bacground{
+    background-image: url(/img/backgroudttl.jpg);
+    height: 805px;
+    margin-bottom: 60px;
+    .about-us-nav {
+        @include flex;
+        color: #1E2533;
+        padding-top: 24.8px;
+        margin-bottom: 95px;
+
+        .social-media{
+            display: flex;
+            .social-media-unit{
+                width: 40px;
+                height: 40px;
+                background-color: $light-pink;
+                border-radius: 50%;
+                @include flex;
+                justify-content: center;
+                margin-right: 6px;
+                border-bottom: 2.5px solid #694a44;
+                transition-duration: .3s;
+                &:hover{
+                    cursor: pointer;
+                    background-color: #c59f98;
+                }
+                .social-img{
+                    margin: auto auto;
+                }
+            }
+        }
+
+        .products{
+            &:hover{
+                cursor: pointer;
+            }
+            .choise-header {
+                .header-choise-content {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+            
+            .choise-body {
+                .chise-body-list {
+                    display: none;
+                    .choise-list-item {
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            
+        }
+
+        .user-profile-list {
+            @include flex;
+            width: 106px;
+            .user-profile-item {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                @include flex;
+                justify-content: center;
+                background-color: #fff;
+                transition-duration: .3s;
+                &:hover{
+                    cursor: pointer;
+                    background-color: rgb(243, 241, 241);
+                }
+                &:last-child{
+                    background-color: $orange;
+                    &:hover{
+                        background-color: #e26533;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        
+        .lang-list{
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 9.85px 12.85px;
+            transition-duration: .3s;
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(243, 241, 241);
+            }
+        }
+    }
+    
+    
+        .title{
+            width: 747px;
+            .orange{
+                color: $orange;
+            }
+            .main-ttl{
+                font-size: 60px;
+                font-family: 'Playfair';
+                font-weight: 400;
+                margin-bottom: 42px;
+            }
+            .title-list{
+                margin-bottom: 74px;
+                .main-list-item{
+                    @include flex;
+                    justify-content: flex-start;
+                    margin-bottom: 29px;
+                    .main-list-mark{
+                        margin-right: 10px;
+                    }
+                    .main-subtitle{
+                        display: flex;
+                        font-size: 20px;
+                        font-weight: 600;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .order{
+                @include forLinks;
+                width: 290px;
+                height: 60px;
+                background-color: $orange;
+                border-bottom: 2.5px solid rgb(212, 113, 47);
+                border-radius: 8px;
+                font-size: 16px;
+                font-weight: 700;
+                @include flex;
+                justify-content: center;
+                transition-duration: .2s;
+                &:hover{
+                    background-color: rgb(212, 113, 47);
+                }
+            }
+        }
+}
+
+.nav-about-product{
+    @include flex;
+        .about-product-item{
+            @include forLinks;
+            font-size: 16px;
+            font-weight: 700;
+            background-color: #ad878033;
+            padding: 17px 20px;
+            border-radius: 8px;
+            color: $orange;
+            transition-duration: .3s;
+            &:hover{
+                background-color: $light-pink;
+                color: #fff;
+            }
+        }
+        .active-nav-btn{
+            background-color: $light-pink;
+            color: #fff;
+        }
+}
