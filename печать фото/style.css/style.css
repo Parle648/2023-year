@@ -19,6 +19,10 @@ body {
   margin: 0px auto;
 }
 
+.orange {
+  color: #FC8C5F;
+}
+
 .main-ttl-bacground {
   background-image: url(/img/backgroudttl.jpg);
   height: 805px;
@@ -244,4 +248,137 @@ body {
 .nav-about-product .active-nav-btn {
   background-color: #AD8780;
   color: #fff;
+}
+
+main {
+  background-color: rgba(197, 159, 152, 0.6039215686);
+}
+main .form-ttl {
+  font-size: 35px;
+  font-family: "Playfair";
+  font-weight: 400;
+  margin-bottom: 42px;
+  width: 908px;
+  margin: 0 auto;
+  text-align: center;
+  color: #1E2533;
+}
+main .form-ttl .orange {
+  color: #FC8C5F;
+}
+main .order-form .choise-photo .choise-photo-headeer {
+  background-color: rgb(255, 255, 255);
+  color: #1E2533;
+  font-size: 18px;
+  font-weight: 600;
+  width: 560px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+main .order-form .choise-photo .body-photo-choise {
+  margin-bottom: 41px;
+}
+main .order-form .choise-photo .upgrade-photo-before {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 540px;
+  height: 80px;
+  margin-bottom: 30px;
+}
+main .order-form .choise-photo .upgrade-photo-before .upgrade-input {
+  width: 22px;
+  height: 22px;
+}
+main .order-form .choise-photo .upgrade-photo-before .upgrede-ttl {
+  color: #AD8780;
+  font-size: 16px;
+  font-weight: 400;
+  width: 386px;
+}
+main .order-form .choise-size .choise-size-headeer {
+  background-color: rgb(255, 255, 255);
+  color: #1E2533;
+  font-size: 18px;
+  font-weight: 600;
+  width: 560px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+main .order-form .choise-size .size-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 360px;
+}
+main .order-form .choise-size .size-body .size-label .size-1-fake {
+  width: 80px;
+  height: 105px;
+  background-color: rgba(255, 255, 255, 0.521);
+}
+main .order-form .choise-size .size-body .size-label .size-2-fake {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.521);
+}
+main .order-form .choise-size .size-body .size-label .size-3-fake {
+  width: 105px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.521);
+}
+main .order-form .choise-size .size-body .size-label .fake-choise-active {
+  border: 1.5px solid #FC8C5F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .order-form .choise-size .size-body .size-label .fake-choise-active::after {
+  content: " ";
+  width: 24px;
+  height: 24px;
+  background-color: #FC8C5F;
+  border-radius: 50%;
 }
