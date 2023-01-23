@@ -508,3 +508,114 @@ main {
 
     }
 }
+
+.concurent-distiguish{
+    @include flex;
+    .pros{
+        @include flex;
+        flex-direction: column;
+        height: 1199px;
+        .pros-ttl{
+            @include forTtls;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .pros-subt{
+            font-size: 20px;
+            font-weight: 600;
+            color: #FA7846;
+        }
+        .concurents-list {
+            width: 808px;
+            .concurent-img {
+                padding-left: 58px;
+                margin-right: 52px;
+            }
+            .concurent-list-item {
+                display: flex;
+                align-items: center;
+                background-color: #F9E6DE;
+                .why {
+                    display: flex;
+                    align-items: start;
+                    padding: 37px 0px 37px;
+                    .pros-or-cons {
+                        margin-right: 16px;
+                    }
+                    .pros-or-cons-subt {
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: #000;
+                        width: 514px;
+                        .orange{
+                            color: #FA7846;
+                        }
+                    }
+                }
+                .list {
+                    height: 56px;
+                    background-color: #fff;
+                    border: 1px solid #FC8C5F;
+                    border-radius: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: -277px;
+                    .orange {
+                        padding: 10px 0px 10px 39px;
+                        width: 247px;
+                    }
+                    .green-arrow {
+                        padding: 0px 23px 0px 0px; 
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                }
+                
+            }
+        }
+        
+    }
+
+    .cons {
+        height: 1199px;
+        .consurent-ttl{
+            @include forTtls;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .concurent-subt{
+            font-size: 20px;
+            font-weight: 600;
+            color: #FA7846;
+            margin-bottom: 153px;
+        }
+        .concurents-list {
+            background-color: #FBF2EA;
+            height: 987px;
+            .concurent-list-item {
+                .why {
+                    height: 98.98px;
+                    display: flex;
+                    align-items: flex-start;
+                    .pros-or-cons {
+                        margin-right: 18px;
+                        padding-top: 28px;
+                        padding-left: 61px;
+                    }
+                    .pros-or-cons-subt {
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: #000;
+                        width: 514px;
+                        padding-top: 28px;
+                    }
+                }
+            }
+        }
+    }
+    
+}

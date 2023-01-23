@@ -19,6 +19,13 @@ $orange: #FC8C5F;
     display: inline-block;
 } 
 
+@mixin forTtls {
+    font-size: 30px;
+    color: #000;
+    font-family: 'Trajan Pro 3';
+    font-weight: 400;
+}
+
 ul{
     @include forListst
 }
